@@ -129,7 +129,7 @@ The project includes a `Makefile` for standard workflows:
    git add .
    git commit -m "Initial commit: game-npc-director ADK agent"
    git branch -M main
-   git remote add origin https://github.com/<your-username>/game-npc-director.git
+   git remote add origin https://github.com/Rohan-R07/game-npc-director.git
    git push -u origin main
    ```
 
