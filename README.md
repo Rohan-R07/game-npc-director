@@ -49,13 +49,13 @@ graph TD
     security_failure_node --> final_output_node
     final_output_node --> END
 
-    subgraph MCP Server ["Model Context Protocol Server"]
+    subgraph mcp_server ["Model Context Protocol Server"]
         get_npc_profile
         get_quest_log
         check_item_rarity
     end
 
-    orchestrator_node -.-> MCP Server
+    orchestrator_node -.-> mcp_server
 ```
 
 ---
